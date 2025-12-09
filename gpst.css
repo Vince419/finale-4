@@ -1,0 +1,335 @@
+body {
+            margin: 0;
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            color: white;
+            padding: 20px 0;
+            
+        }
+
+        header a {
+            color: white;
+            background-color: rgb(70, 70, 70);
+            padding: 8px 16px;
+            text-decoration: none;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 5px;
+            width: 100px;
+            font-size: 20px;
+        }
+
+        main {
+            background-image: linear-gradient(to bottom, rgb(82, 179, 211), rgb(3, 137, 209));
+            color: white;
+            padding: 25px;
+            min-height: 105vh;
+            height: auto;      
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            
+        }
+
+        
+        footer {
+           
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .main-content {
+            background: rgb(0, 85, 255);
+            height: auto;
+            border-radius: 15px;
+            width: 40%;
+            position: relative;
+            left: 60%;
+            padding: 20px;
+            
+        }
+
+        .contact-info {
+            background: rgb(255, 255, 255);
+            height: 500px;
+            width: 50%;
+         position: relative;
+            border: solid black 2px;
+            padding: 20px;
+            color: black;
+          margin: 0 auto;
+        }
+        header a:hover {
+    background-color: #888;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.PS2-1 {
+            background-image: linear-gradient(to right, rgb(0,40,200), rgb(0,34,150));
+            height: auto;
+            border-radius: 15px;
+            width: 40%;
+           margin: 20px auto;
+           max-width: 600px;  
+           width: 90%;    
+           
+        }
+
+        .PS2-2 {
+            background-image: linear-gradient(to right, rgb(0,40,200), rgb(0,34,150));
+            height: auto;
+            border-radius: 15px;
+            width: 40%;
+            margin: 20px auto;
+           max-width: 600px;  
+           width: 90%;
+            
+        }
+
+        .PS2-3 {
+            background-image: linear-gradient(to right, rgb(0,40,200), rgb(0,34,150));
+            height: auto;
+            border-radius: 15px;
+            width: 40%;
+            margin: 20px auto;
+           max-width: 600px;  
+           width: 90%;
+        }
+
+
+
+           
+           
+        .PS1-1 {
+            background-image:linear-gradient(90deg, #ff0000 0%, #ae00ff 25%, #04e21e 50%, #ff00d4 75%, #4000ff 100%);
+            height: auto;
+            border-radius: 15px;
+            width: 40%;
+           margin: 20px auto;
+           max-width: 600px;  
+           width: 90%; }
+
+        .PS1-2 {
+            background-image: linear-gradient(90deg, #ff0000 0%, #ae00ff 25%, #04e21e 50%, #ff00d4 75%, #4000ff 100%);
+            border-radius: 15px;
+            width: 40%;
+            margin: 20px auto;
+           max-width: 600px;  
+           width: 90%;
+            
+        }
+
+        .PS1-3 {
+            background-image: linear-gradient(90deg, #ff0000 0%, #ae00ff 25%, #04e21e 50%, #ff00d4 75%, #4000ff 100%);
+            height: auto;
+            border-radius: 15px;
+            width: 40%;
+            margin: 20px auto;
+           max-width: 600px;  
+           width: 90%;
+        }
+
+
+.PS3-1 {
+            background-image: linear-gradient(to right, rgb(135, 135, 135), rgb(102, 102, 102));
+            height: auto;
+            border-radius: 15px;
+            width: 40%;
+           margin: 20px auto;
+           max-width: 600px;  
+           width: 90%; }
+
+           .PS3-2 {
+            background-image: linear-gradient(to right, rgb(135, 135, 135), rgb(102, 102, 102));
+            height: auto;
+            border-radius: 15px;
+            width: 40%;
+           margin: 20px auto;
+           max-width: 600px;  
+           width: 90%; }
+
+           .PS3-3 {
+            background-image: linear-gradient(to right, rgb(135, 135, 135), rgb(102, 102, 102));
+            height: auto;
+            border-radius: 15px;
+            width: 40%;
+           margin: 20px auto;
+           max-width: 600px;  
+           width: 90%; }
+
+        
+          
+        html, body {
+    overflow-x: hidden;
+}
+
+a, a:link, a:visited {
+    color: rgb(0, 128, 255);
+    text-decoration: none;
+}
+
+a.PS2:hover {
+  background: linear-gradient(90deg, #8A2BE2 0%, #007BFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+}
+
+
+
+a.Xbox:hover, a:active {
+  background: linear-gradient(90deg, #00f915 0%, #006a23 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+}
+
+a.about:hover, a:active {
+  background: linear-gradient(90deg, #696969 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+}
+
+a.PS1:hover, a:active {
+  background: linear-gradient(90deg, #ff0000 0%, #ae00ff 25%, #04e21e 50%, #ff00d4 75%, #4000ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+}
+
+a.PS3:hover, a:active {
+  background: linear-gradient(90deg, #ffffff 0%, #6d6d6d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+}
+
+a.home:hover, a:active {
+  background: linear-gradient(90deg, #00c7f9 0%, #001c6a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+}
+
+ a:hover {color: rgb(113, 113, 255);}
+
+ .XBOX-1 {
+            background-image: linear-gradient(to right, rgb(7, 213, 0), rgb(6, 99, 3));
+            height: auto;
+            border-radius: 15px;
+            width: 40%;
+            margin: 20px auto;
+           max-width: 600px;  
+           width: 90%;
+           
+        }
+
+        .XBOX-2 {
+           background-image: linear-gradient(to right, rgb(7, 213, 0), rgb(6, 99, 3));
+            height: auto;
+             border-radius: 15px;
+            width: 40%;
+             margin: 20px auto;
+           max-width: 600px;  
+           width: 90%;
+            
+        }
+
+        .XBOX-3 {
+            background-image: linear-gradient(to right, rgb(7, 213, 0), rgb(6, 99, 3));
+            height: auto;
+             border-radius: 15px;
+            width: 40%;
+            margin: 20px auto;
+           max-width: 600px;  
+           width: 90%;
+        }
+
+        td, th {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+   border: 2px solid #000000;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;      
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;           
+    max-width: 100%;       
+    background-color: rgb(136, 199, 255);
+    color: black;
+}
+
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;}
+
+    form {
+    max-width: 350px;  
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.email-us {width: 200px;
+height: 50px;
+background: rgb(164, 232, 255);
+border: solid black 2px;
+position: relative;
+left: 35%;
+bottom: 35px;}
+
+
+.home-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap; 
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    align-items: center;
+    margin-top: -800px;
+}
+
+.logo-container img {
+    width: 275px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.main-content {
+    background: rgb(0, 85, 255);
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px; 
+}
+
